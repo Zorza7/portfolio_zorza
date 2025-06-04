@@ -12,19 +12,12 @@
     <div class="container">
       <h1>Sito presentazione</h1>
     </div>
-    <div class="container">
-        <h2>chi sono</h2>
-        <div class="row">
-          <div class="colonna">paragrafo descrittivo</div>
-          <img src="images/immagine1.png" alt="avatar" >
-        </div>
-    </div>
     <section id="chi-sono" class="py-5">
       <div class="container">
           <h2 class="text-center mb-5">Chi Sono</h2>
           <div class="row align-items-center">
               <div class="col-md-4">
-                  <img src="metti-la-tua-img"
+                  <img src="images/immagine1.png"
                       alt="Profile" class="img-fluid rounded-circle">
               </div>
               <div class="col-md-8">
@@ -36,12 +29,32 @@
           </div>
       </div>
   </section>
+  
     <div class="container">
       <h2>competenze</h2>
-      <p>-HTML</p>
-      <p>-CSS</p>
-      <p>-Excel</p>
-      <p>-Photoshop</p>
+      <div class="row align-items-center">
+        <div class="col-md-4">
+            <img src="images/immagine1.png"
+                alt="Profile" class="img-fluid rounded-circle">
+            <img src="images/immagine1.png"
+                alt="Profile" class="img-fluid rounded-circle">
+            <img src="images/immagine1.png"
+                alt="Profile" class="img-fluid rounded-circle">
+            <img src="images/immagine1.png"
+                alt="Profile" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8">
+            <p class="lead">
+              <p>-HTML</p>
+              <p>-CSS</p>
+              <p>-Excel</p>
+              <p>-Photoshop</p>
+</p>
+        
+        </div>
+    </div>
+    
+      
     </div>
       <div class="container">
         <h2>progetti</h2>
@@ -61,15 +74,27 @@
         <p>messaggio: ciao</p>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-    <button onclick="cambiaColore()">Cambia Colore</button>
+    <button onclick="cambiaColore()">tema scuro</button>
     <script>
     function cambiaColore() {
-      const coloreSfondo = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-      const coloreTesto = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+      const coloreSfondo = `black`;
+      const coloreTesto = `white`;
 
       document.body.style.backgroundColor = coloreSfondo;
       document.body.style.color = coloreTesto;
     }
+    
+  </script>
+    <button onclick="cambiaColore2()">tema chiaro</button>
+    <script>
+    function cambiaColore2() {
+      const coloreSfondo = `lightblue`;
+      const coloreTesto = `black`;
+
+      document.body.style.backgroundColor = coloreSfondo;
+      document.body.style.color = coloreTesto;
+    }
+    
   </script>
   </body>
   <footer>
