@@ -1,2 +1,2 @@
 # portfolio_zorza
-Il bellissimo porfolio di Zorza Erik
+porfolio di Zorza Erik
